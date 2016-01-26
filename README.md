@@ -10,7 +10,7 @@ The ssh deamon is assumed to be running on port 22222, but that can be changed o
 How to run
 ----------
 
-Set environment variables MAINTAINANCE_SSH_USER, MAINTAINANCE_SSH_HOST and SSHPASS to the login details for the remote host.
+Set environment variables MAINTENANCE_SSH_USER, MAINTENANCE_SSH_HOST and SSHPASS to the login details for the remote host.
 
 When the container starts, if it logins successfully to the remote host, you will be able to login back to
 the container by running
